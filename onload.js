@@ -1,0 +1,5 @@
+function onload(){
+	calcWindowSize();
+	Home();
+
+}
