@@ -28,11 +28,11 @@ function sizeGame(){
 	for(i=0;i<12;i++){
 		document.getElementById('rightButton'+i).style.height = 12.5*vh-5+"px";
 		document.getElementById('rightButton'+i).style.width = 16.66*vw-5+"px";
-		document.getElementById('rightButton'+i).style.fontSize = 11.5*vh-5-7+"px";
+		document.getElementById('rightButton'+i).style.fontSize = 9.5*vh-5-7+"px";
 
 		document.getElementById('bottomButton'+i).style.height = 12.5*vh-5+"px";
 		document.getElementById('bottomButton'+i).style.width = 16.66*vw-5+"px";
-		document.getElementById('bottomButton'+i).style.fontSize = 11.5*vh-5-8+"px";
+		document.getElementById('bottomButton'+i).style.fontSize = 9.5*vh-5-8+"px";
 	}
 	sizeID('statButton', 7, 46.2);
 	positionID('statButton', 5, 0,0,9.9);
@@ -46,18 +46,22 @@ function sizeResult(){
 	sizeID('overlay', 100, 100);
 	sizeID('resultText1', 10, 100);
 	positionID('resultText1', 16);
-	document.getElementById('resultText1').style.fontSize = 8*vh+"px";
+	document.getElementById('resultText1').style.fontSize = 6.5*vh+"px";
+	document.getElementById('resultText1').style.paddingTop = 1.5*vh+"px";
 	sizeID('resultOutput', 10, 100);
 	positionID('resultOutput', 24.5);
-	document.getElementById('resultOutput').style.fontSize = 9*vh+"px";
+	document.getElementById('resultOutput').style.fontSize = 7.5*vh+"px";
+	document.getElementById('resultOutput').style.paddingTop = 1.5*vh+"px";
 	sizeID('resultText2', 10, 100);
 	positionID('resultText2', 35);
-	document.getElementById('resultText2').style.fontSize = 8*vh+"px";
+	document.getElementById('resultText2').style.fontSize = 6.5*vh+"px";
+	document.getElementById('resultText2').style.paddingTop = 1.5*vh+"px";
 	sizeID('percentCorrect', 10, 100);
 	positionID('percentCorrect', 60);
-	document.getElementById('percentCorrect').style.fontSize = 8*vh+"px";
-	sizeID('continue', 10, 50);
-	positionID('continue', 80,'','',25);
+	document.getElementById('percentCorrect').style.fontSize = 6.5*vh+"px";
+	document.getElementById('percentCorrect').style.paddingTop = 1.5*vh+"px";
+	sizeID('continue', 10, 70);
+	positionID('continue', 80,'','',15);
 	document.getElementById('continue').style.fontSize = 8*vh+"px";
 }
 

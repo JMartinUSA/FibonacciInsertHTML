@@ -36,17 +36,11 @@
 	margin:2.5px;
 	text-align: center;
 }
-#statButton{
+#statButton, #submitButton{
 	background: white;
 	opacity:.5;
 	position:absolute;
 	text-align: center;
 	z-index: 10;
 }
-#submitButton{
-	background: white;
-	opacity:.5;
-	position:absolute;
-	text-align: center;
-	z-index: 10;
-}
+

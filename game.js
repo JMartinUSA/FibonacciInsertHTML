@@ -38,7 +38,7 @@ function answerCorrect(){
 			<div class="resultText" id="resultText1">You are</div><br>\
 			<div id="resultOutput" class="correct">Correct!!</div><br>\
 			<div class="resultText" id="resultText2">Nice work,<br>\
-			your accuracy is</div><br>\
+			your accuracy <br>is</div><br>\
 			<div id="percentCorrect" class="colorGreen">'+sessionAccuracy+'%</div>\
 			<div id="continue" onclick="nextLevel()">Continue</div>\
 		</div>';
@@ -55,7 +55,7 @@ function answerIncorrect(){
 			<div class="resultText" id="resultText1">You are</div><br>\
 			<div id="resultOutput" class="incorrect">Incorrect!!</div><br>\
 			<div class="resultText" id="resultText2">Nice try,<br>\
-			your accuracy is</div><br>\
+			your accuracy <br>is</div><br>\
 			<div id="percentCorrect" class="colorRed">'+sessionAccuracy+'%</div>\
 			<div id="continue" onclick="nextLevel()">Continue</div>\
 		</div>';

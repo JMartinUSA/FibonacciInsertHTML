@@ -26,13 +26,13 @@ function inactive(){
   clockActive = false;
   gameActive = false;
   howToActive = false;
+  document.getElementById('sheets').innerHTML = "";
 }
 
 function insertHome(){
   //document.getElementById('js').innerHTML='<link href="home.css" rel="stylesheet"></style>';
 	document.getElementById('body').innerHTML='<!-- Index Container -->\
   <link href="home.css" rel="stylesheet"></style>\
-  <link href="welcome.css" rel="stylesheet"></style>\
     <div class="container" id="container">\
       	<div class="thumbnailIndex" id="welcomeIcon"> <img src="fibonacci clock 400px.png" /></div>\
       	<div class="button" id="welcomeSlide1" onclick="Clock();"> <p>Clock</p> </div>\
