@@ -29,10 +29,12 @@ function sizeGame(){
 		document.getElementById('rightButton'+i).style.height = 12.5*vh-5+"px";
 		document.getElementById('rightButton'+i).style.width = 16.66*vw-5+"px";
 		document.getElementById('rightButton'+i).style.fontSize = 9.5*vh-5-7+"px";
+		document.getElementById('rightButton'+i).style.paddingTop = 1.3*vh+"px";
 
 		document.getElementById('bottomButton'+i).style.height = 12.5*vh-5+"px";
 		document.getElementById('bottomButton'+i).style.width = 16.66*vw-5+"px";
 		document.getElementById('bottomButton'+i).style.fontSize = 9.5*vh-5-8+"px";
+		document.getElementById('bottomButton'+i).style.paddingTop = 1.3*vh+"px";
 	}
 	sizeID('statButton', 7, 46.2);
 	positionID('statButton', 5, 0,0,9.9);

@@ -5,7 +5,7 @@ function Stats(){
 		<div id="statText">\
 			Correct: '+sessionCorrect+'<br>\
 			Incorrect: '+sessionIncorrect+'<br>\
-			Accuracy: '+sessionAccuracy+'<br>\
+			Accuracy: '+sessionAccuracy+'%<br>\
 		</div>\
 	</div>';
 	sizeStats();

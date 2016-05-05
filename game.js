@@ -32,7 +32,7 @@ function answerCorrect(){
 	console.log('correct');
 	sessionCorrect ++;
 	calculateSessionAccuracy();
-		document.getElementById('submenu').innerHTML = '<!-- Sub Menu -->\
+		document.getElementById('gameResult').innerHTML = '<!-- Sub Menu -->\
 		<link href="submenus.css" rel="stylesheet"></style>\
 		<div id="overlay">\
 			<div class="resultText" id="resultText1">You are</div><br>\
@@ -49,7 +49,7 @@ function answerIncorrect(){
 	console.log('incorrect');
 	sessionIncorrect++;
 	calculateSessionAccuracy();
-		document.getElementById('submenu').innerHTML = '<!-- Sub Menu -->\
+		document.getElementById('gameResult').innerHTML = '<!-- Sub Menu -->\
 		<link href="submenus.css" rel="stylesheet"></style>\
 		<div id="overlay">\
 			<div class="resultText" id="resultText1">You are</div><br>\
@@ -63,7 +63,7 @@ function answerIncorrect(){
 }
 function nextLevel(){
 	Game();
-	document.getElementById('submenu').innerHTML = '';
+	document.getElementById('gameResult').innerHTML = '';
 }
 
 function highlightHour(element, hoursIs){
