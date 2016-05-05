@@ -26,9 +26,16 @@ function inactive(){
   clockActive = false;
   gameActive = false;
   howToActive = false;
-  document.getElementById('sheets').innerHTML = "";
-  document.getElementById('left').innerHTML = "";
-  document.getElementById('right').innerHTML = "";
+  exitSubmenu();
+}
+
+function exitSubmenu(){
+    document.getElementById('sheets').innerHTML = "";
+    document.getElementById('left').innerHTML = "";
+    document.getElementById('right').innerHTML = "";
+}
+function exitResult(){
+    document.getElementById('gameResult').innerHTML = "";
 }
 
 function insertHome(){
@@ -74,7 +81,7 @@ function insertGame(){
   <link href="clock.css" rel="stylesheet"></style>\
 	<link href="game.css" rel="stylesheet"></style>\
   <div class="container" id="container">\
-    <div id="statButton">Stats</div>\
+    <div id="statButton" onclick="Stats();">Stats</div>\
     <div id="submitButton" onclick="submitAnswer()">Confirm</div>\
         <div id="clock">\
           	<div id="three"></div>\

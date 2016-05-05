@@ -79,6 +79,9 @@ function sizeMenu(){
 function sizeStats(){
 	sizeID('stats',100,100);
 	document.getElementById('stats').style.fontSize=7*vh+'px';
+	sizeID('backButton', 8, 50);
+	positionID('backButton', 85,'','',25);
+	document.getElementById('backButton').style.fontSize = 6*vh+"px";
 }
 
 function fullsize(){

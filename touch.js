@@ -33,3 +33,13 @@ right.on("swiperight", function(ev) {
 	document.getElementById('right').innerHTML = '';
 });
 
+var gameResult = document.getElementById('gameResult');
+gameResult = new Hammer.Manager(gameResult);
+gameResult.add( new Hammer.Swipe);
+gameResult.on("swipeleft", function(ev) {
+	Stats();
+});
+gameResult.on("swiperight", function(ev) {
+	Menu();
+});
+
