@@ -27,6 +27,8 @@ function inactive(){
   gameActive = false;
   howToActive = false;
   document.getElementById('sheets').innerHTML = "";
+  document.getElementById('left').innerHTML = "";
+  document.getElementById('right').innerHTML = "";
 }
 
 function insertHome(){

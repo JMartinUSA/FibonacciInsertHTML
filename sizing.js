@@ -64,6 +64,20 @@ function sizeResult(){
 	positionID('continue', 80,'','',15);
 	document.getElementById('continue').style.fontSize = 8*vh+"px";
 }
+function sizeMenu(){
+	var topposition = [20,40,60,80];
+	for(i=0;i<4;i++){
+		sizeID('menuButton'+i, 7.5, 50);
+		positionID('menuButton'+i, topposition[i], 0,0,25);
+		document.getElementById('menuButton'+i).style.fontSize = 6*vh+'px';
+	};
+	sizeID('menu',100,100);
+	sizeID('transparentCover',100,100);
+}
+function sizeStats(){
+	sizeID('stats',100,100);
+	document.getElementById('stats').style.fontSize=7*vh+'px';
+}
 
 function fullsize(){
 	sizeID('container', 100, 100);

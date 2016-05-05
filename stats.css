@@ -1,0 +1,8 @@
+#stats{
+	background:black;
+	position:absolute;
+	z-index: 13;
+}
+#statText{
+	color: white;
+}
